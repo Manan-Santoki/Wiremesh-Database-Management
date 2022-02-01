@@ -1,0 +1,17 @@
+create table by copy paste in my sql
+
+
+create table Jalaram(Sr_No bigint primary key , Date date,Party_Name varchar(50) , Warp_Mesh bigint not null , Weft_Mesh bigint not null , 
+Warp_Diameter decimal(10,3)not null , Weft_Diameter decimal(10,3) not null , Warp_Grade varchar(20), Weft_Grade varchar(20)  ,
+Warp_Wire_Rate bigint not null, Weft_Wire_Rate bigint not null , Sell_Rate_Rs bigint not null,
+RM_Value_Per_SqFt_Rs decimal(10,2) not null ,Difference_per_Sqft_Rs decimal(10,2) not null , Wire_Weight_per_SqMtr_Kg  decimal(10,2) not null ,
+Width_1 decimal(10,2) not null ,Width_2 decimal(10,2) not null,Width_3 decimal(10,2) not null, 
+Length_1 bigint not null,Length_2 bigint not null , Length_3 bigint not null ,
+RPM bigint not null, Efficiency bigint not null ,
+Scrape_percentage decimal(10,2) not null , 
+Warp_Wire_Qty_Kg bigint not null , Weft_Wire_Qty_Kg bigint not null, Total_Wire_Qty_Kg bigint not null , 
+RM_Wire_Value_Rs bigint not null , FG_Value_Rs bigint not null , Difference_Value_Rs bigint not null,
+Total_No_of_Days bigint not null,
+Diff_Percentage decimal(10,2) not null,
+Diff_per_day_1_Rs bigint not null , Diff_per_day_2_Rs bigint not null , Diff_per_day_3_Rs bigint not null , 
+Total_Sqft bigint not null);

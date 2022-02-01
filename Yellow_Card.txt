@@ -1,0 +1,14 @@
+create table by copy paste in my sql
+
+create table Yellow(Program_No bigint primary key not null ,Machine_No int not null, Date date not null, Warp_Mesh bigint not null , Weft_Mesh bigint not null , 
+Warp_Diameter decimal(10,3) not null , Weft_Diameter decimal(10,3) not null , Warp_Grade varchar(20) not null, Weft_Grade varchar(20) not null ,
+Actual_Wgt bigint not null , Warp_Wire_Price bigint not null , Weft_Wire_Price bigint not null,Scrape bigint not null , 
+Formula_Wire_Wt decimal(10,3) not null ,Actual_Wgt_per_SqMtr decimal(10,3) not null , Wgt_Diff_per_SqMtr decimal(10,3) not null,
+Avg_Actual_Dia decimal(10,3) not null ,
+Actual_Warp_Dia decimal(10,3) not null,Actual_Weft_Dia decimal(10,3) not null,
+Wire_Cost decimal(10,3) not null, Scrape_Percentage decimal(10,2) not null,
+Sell_Rate decimal(10,2) not null,totalsqft bigint not null , RM_Value bigint not null ,FG_Value bigint not null ,FG_Diff_Value bigint not null,
+FG_Percentage bigint not null , Actual_Wgt_per_400_sqft decimal(10,2) not null,
+Warp_Wire_cost decimal(10,3) not null, Weft_Wire_cost decimal(10,3) not null,
+Width_1 decimal(10,2) not null ,Width_2 decimal(10,2) not null,Width_3 decimal(10,2) not null, 
+Length_1 decimal(10,2) not null,Length_2 decimal(10,2) not null , Length_3 decimal(10,2) not null);
