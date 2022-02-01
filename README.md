@@ -33,6 +33,9 @@ cd Wiremesh-Database-Management
 pip3 install -r requirements.txt
 python3 main.py
 ```
+Note : You will need to manually create database in mysql (refer to text file in repo)
+[I will automate database creation later :) ]
+
 # Some Working Screenshots !
 
 
