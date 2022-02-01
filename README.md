@@ -41,6 +41,7 @@ python3 main.py
 
 - Export Database in PDF or Excel Format
 - Edit Database directy from treeView
+- Secure username and password login system
 
 
 # Want to contribute? Great!
