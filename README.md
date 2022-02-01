@@ -51,6 +51,6 @@ Create a pull request for this repo , and Thanks in Advance ! ;)
 
 ## License
 
-MIT
+GNU General Public License v3.0
 
-**Free Software, Hell Yeah!**
+
